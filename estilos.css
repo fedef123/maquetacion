@@ -39,9 +39,44 @@ html {
     text-decoration: none;
     display: block;
     color: white;
+    padding: 1px;
+    background-color: #0000aa;
 }
 
-.navbar ul li a:hover {
-    background: red;
-    color: black
+.encabezado {
+    padding: 30 px;
+    box-sizing: border-box;
+    border: 10px solid grey;
+    width: 83%;
+}
+
+.cuerpo {
+    box-sizing: border-box;
+    border: 10px solid grey;
+    display: inline-block;
+    width: 83%;
+}
+
+.cuadro {
+    text-align: left;
+    display: inline-block;
+    width: 45%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.aside {
+    width: 250px;
+    height: 250px;
+    float: right;
+    border-left: 1px solid #ebebeb;
+    background-color: #646F76;
+}
+
+.footer {
+    background-color: #33AAFf;
+    color: white;
+    height: 40px;
+    text-align: center;
+    font-size: 8px;
 }
